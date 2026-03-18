@@ -1,5 +1,7 @@
 package model;
 
+// Subclass representing a safety-related issue
+
 public class SafetyIssue extends DockIssue {
 
     public SafetyIssue(String issueId, String title, String locationId,
