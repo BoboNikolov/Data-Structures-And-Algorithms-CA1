@@ -7,6 +7,8 @@ import java.util.Comparator;
 import java.util.List;
 import model.DockIssue;
 
+// Priority queue for DockIssue objects.Lower severity number means higher priority.
+
 public class IssuePriorityQueue implements QueueOperations<DockIssue> {
 
     private ArrayList<DockIssue> queue;
