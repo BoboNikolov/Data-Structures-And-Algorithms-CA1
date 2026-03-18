@@ -1,5 +1,7 @@
 package model;
 
+// Represents a location in the Dockland ares. 
+//This objects are stored inside the singly linked list
 public class Location {
     private String id;
     private String name;
