@@ -1,5 +1,7 @@
 package model;
 
+// Subclass representing a mobility-related issue.
+
 public class MobilityIssue extends DockIssue {
 
     public MobilityIssue(String issueId, String title, String locationId,
