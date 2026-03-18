@@ -1,6 +1,6 @@
 package model;
 
-Abstract parent class for all issue types. It's used to show inheritance and polymorphism.
+// Abstract parent class for all issue types. It's used to show inheritance and polymorphism.
 
 public abstract class DockIssue {
     protected String issueId;
