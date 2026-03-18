@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 import model.Location;
 
+//  HashMap-based ADT for storing Location objects using their ID as the key.
+
 public class LocationMap implements CrudOperations<Location, String> {
 
     private HashMap<String, Location> map;
