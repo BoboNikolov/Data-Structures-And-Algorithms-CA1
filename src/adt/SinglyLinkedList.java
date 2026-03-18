@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import model.RouteStep;
 
+// Generic singly linked list implementation
+
 public class SinglyLinkedList<T> implements CrudOperations<T, Integer> {
 
     private class Node {
