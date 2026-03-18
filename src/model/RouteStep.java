@@ -1,5 +1,7 @@
 package model;
 
+// Is one step in a route. And the objects are stored inside the singly linked list.
+
 public class RouteStep {
     private int stepNumber;
     private String fromLocationId;
